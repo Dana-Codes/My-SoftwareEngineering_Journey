@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check if telnet is installed
+if ! command -v telnet &> /dev/null; then
+    echo "Telnet is not installed. Please install telnet to run this script."
+    exit 1
+fi
+
+# Play Star Wars Episode IV in ASCII art using telnet
+telnet towel.blinkenlights.nl
+#!/bin/bash
+telnet towel.blinkenlights.nl
